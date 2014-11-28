@@ -1,3 +1,3 @@
-window.Shapeshifter = Ember.Application.create();
+window.Symbiot = Ember.Application.create();
 
-Shapeshifter.Store = DS.Store.extend();
+Symbiot.Store = DS.Store.extend();

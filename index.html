@@ -7,8 +7,7 @@
 </head>
 <body>
 
-  <script type="text/x-handlebars" data-template-name="shapeshifter">
-
+  <script type="text/x-handlebars" data-template-name="symbiot">
     <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
@@ -17,37 +16,41 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span> 
           </button>
-          <a class="navbar-brand" href="#">Json Shapeshifter</a>
+          <a class="navbar-brand" href="#">Symbiot</a>
         </div>
         <div class="collapse navbar-collapse" id="mainNav">
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Transformations <span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Streams <i class="fa fa-chevron-circle-down"></i></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#"><i class="fa fa-files-o"></i> My transformations</a></li>
-                <li><a href="#"><i class="fa fa-file-text-o"></i> Create New...</a></li>
+                <li><a href="#"><i class="fa fa-files-o"></i> Overview</a></li>
+                <li><a href="#"><i class="fa fa-file-text-o"></i> Add stream</a></li>
               </ul>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Schemas <span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">I/Os <i class="fa fa-chevron-circle-down"></i></a>
               <ul class="dropdown-menu">
-                <li><a href="#"><i class="fa fa-files-o"></i> My schemas</a></li>
-                <li><a href="#"><i class="fa fa-file-text-o"></i> Create New...</a></li>
+                <li><a href="#"><i class="fa fa-files-o"></i> Overview</a></li>
+                <li><a href="#"><i class="fa fa-arrow-circle-o-right"></i> Add input</a></li>
+                <li><a href="#"><i class="fa fa-arrow-circle-o-left"></i> Add output</a></li>
               </ul>
             </li>
+            <li><a href="#"></span> System</a></li>
             <li><a href="#"></span> About</a></li>
           </ul>
         </div>
       </div>
     </nav>
+    {{outlet}}
+  </script>
 
+  <script type="text/x-handlebars" data-template-name="home">
     <div class="container">
       <div class="jumbotron">
-        <h1><i class="fa fa-file-text-o"></i> Json Shapeshifter</h1> 
+        <h1><i class="fa fa-file-text-o"></i> Symbiot</h1> 
         <p>Where magic things happen...</p>
       </div>
     </div>
-
   </script>
 
   <script src="public/js/app.min.js"></script>

@@ -1,6 +1,6 @@
-# json-shapeshifter-ui
+# symbiot-ui
 
-A Web UI for the shapeshifter project
+A Web UI for Symbiot
 
 # Try it
 

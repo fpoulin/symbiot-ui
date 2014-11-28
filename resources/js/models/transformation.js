@@ -1,9 +1,9 @@
 
-Shapeshifter.Transformation = DS.Model.extend({
+Symbiot.Transformation = DS.Model.extend({
   // ...
 });
 
-Shapeshifter.Transformation.FIXTURES = [
+Symbiot.Transformation.FIXTURES = [
   {
     "id": 1,
     "creationDate": "2014-11-19T14:04:50.689Z",

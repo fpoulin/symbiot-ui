@@ -1,7 +1,7 @@
 {
-  "name": "json-shapeshifter-ui",
+  "name": "symbiot-ui",
   "version": "0.1.0",
-  "description": "A Web UI for the shapeshifter project",
+  "description": "A Web UI for Symbiot",
   "author": "Florian Poulin <florian.poulin@gmail.com>",
   "license": "MIT",
   "devDependencies": {

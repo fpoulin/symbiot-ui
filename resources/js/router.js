@@ -1,3 +1,12 @@
-Shapeshifter.Router.map(function() {
-  this.resource('shapeshifter', { path: '/' });
+Symbiot.Router.map(function() {
+  this.resource('symbiot', { path: '/' });
+});
+
+Symbiot.SymbiotRoute = Ember.Route.extend({
+  renderTemplate: function() {
+    this.render('symbiot');
+    this.render('home', {
+      into: 'symbiot'
+    });
+  }
 });

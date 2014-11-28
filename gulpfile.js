@@ -44,12 +44,11 @@ gulp.task('js', function() {
         config.bowerDir + '/bootstrap-sass-official/assets/javascripts/bootstrap.js',
         config.bowerDir + '/handlebars/handlebars.min.js',
         config.bowerDir + '/ember/ember.min.js',
-        config.bowerDir + '/ember-data/ember-data.js'
+        config.bowerDir + '/ember-data/ember-data.min.js'
       ])
       .pipe(concat('libs.tmp')),
     gulp.src([
-        config.jsPath + '/application.js',
-        config.jsPath + '/router.js'
+        config.jsPath + '/**/*.js'
       ])
       .pipe(uglify('app.tmp'))
     )
